@@ -34,7 +34,7 @@ class Geo extends React.Component {
                 </GoogleMapReact>
             </div>
         ) : (
-            <div>Getting the location data&hellip; </div>
+            <div>Carregando</div>
         );
     }
 }
