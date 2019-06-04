@@ -6,14 +6,6 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
 class Geo extends React.Component {
 
-    static defaultProps = { 
-        center: {
-            lat: -27.634978,
-            lng: -52.273840
-        },
-        zoom: 16
-    };
-
     render() {
         return !this.props.isGeolocationAvailable ? (
             <div>Your browser does not support Geolocation</div>
@@ -23,8 +15,11 @@ class Geo extends React.Component {
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyB0oEXNO_9HgmurvPMqNa_AFvEJU5sMhnE' }}
-                    defaultCenter={this.props.center}
-                    defaultZoom={this.props.zoom}
+                    defaultCenter={{
+                        lat: this.props.coords.latitude,
+                        lng: this.props.coords.longitude
+                    }}
+                    defaultZoom={16}
                 >
                 <AnyReactComponent
                     lat={this.props.coords.latitude}
