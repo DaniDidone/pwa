@@ -1,8 +1,16 @@
 import React from "react";
 import { geolocated } from "react-geolocated";
 import GoogleMapReact from 'google-map-react';
+import db from './db.json';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
+
+const AnyReactComponent = (props) => 
+    <div className="monument">
+        <div className="monument-img" style={{backgroundImage: `url(${props.img})` }}></div>
+        <h2 className="monument-title">{props.name}</h2>
+        <div className="monument-descr">{props.descr}</div>
+    </div>;
  
 class Geo extends React.Component {
 
@@ -21,11 +29,16 @@ class Geo extends React.Component {
                     }}
                     defaultZoom={16}
                 >
-                <AnyReactComponent
-                    lat={this.props.coords.latitude}
-                    lng={this.props.coords.longitude}
-                    text="ESTOU AQUI"
-                />
+
+                { db.monuments.map(i => 
+                    <AnyReactComponent key={Math.random()*10**17}
+                    lat={i.lat}
+                    lng={i.lng}
+                    name={i.name}
+                    descr={i.descr}
+                    img={i.img}
+                />) }
+                
                 </GoogleMapReact>
             </div>
         ) : (

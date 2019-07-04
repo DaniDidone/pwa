@@ -1,0 +1,25 @@
+{
+    "monuments": [
+        {
+            "name": "Castelinho",
+            "descr": "Construido em 1927, o Castelinho é um dos monumentos referência da cidade",
+            "lat": -27.634836,
+            "lng": -52.273209,
+            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+        },
+        {
+            "name": "Seminario",
+            "descr": "Local dos padres e da familia no fim da semana",
+            "lat": -27.646866,
+            "lng": -52.270980,
+            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+        },
+        {
+            "name": "Master",
+            "descr": "Conhecido como o Shopping de Erechim",
+            "lat": -27.645315,
+            "lng": -52.267452,
+            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+        }
+    ]
+}
