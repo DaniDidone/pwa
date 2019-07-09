@@ -5,21 +5,35 @@
             "descr": "Construido em 1927, o Castelinho é um dos monumentos referência da cidade",
             "lat": -27.634836,
             "lng": -52.273209,
-            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+            "img": "http://4.bp.blogspot.com/-rFUbjRBWPWU/VCWQssWwNxI/AAAAAAAAAq4/UFUsCZa0w5s/w1200-h630-p-k-no-nu/castelinho%2Bde%2BErechim.jpg"
         },
         {
             "name": "Seminario",
             "descr": "Local dos padres e da familia no fim da semana",
             "lat": -27.646866,
             "lng": -52.270980,
-            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+            "img": "https://i2.wp.com/erechimonline.com/site/wp-content/uploads/2016/03/seminario-1-Medium.jpg?fit=1154%2C768"
         },
         {
-            "name": "Master",
-            "descr": "Conhecido como o Shopping de Erechim",
-            "lat": -27.645315,
-            "lng": -52.267452,
-            "img": "http://temporario.didone.me/wp-content/uploads/2019/05/architecture-art-colorful-161154-235x235.jpg"
+            "name": "Catedral São José",
+            "descr": "Loren impsum dolor lents ament, dar thor snift largh amunt",
+            "lat": -27.634500, 
+            "lng": -52.274443,
+            "img": "http://www.vivendashotel.com.br/centro/uploads/blog/3043f019ca494d5bf832f6774219f3c6.jpg"
+        },
+        {
+            "name": "Parque Longines Malinowski",
+            "descr": "Loren impsum dolor lents ament, dar thor snift largh amunt",
+            "lat": -27.636929,
+            "lng": -52.263632,
+            "img": "https://www.pmerechim.rs.gov.br/uploads/categories/358/gallery_big_d096467f659c81c5408ddd7014bc1b0e.jpg"
+        },
+        {
+            "name": "Cascata Nazzari",
+            "descr": "Loren impsum dolor lents ament, dar thor snift largh amunt",
+            "lat": -27.685304,
+            "lng": -52.175799,
+            "img": "https://macamp.com.br/guia/wp-content/uploads//arquivos/guia/arquivos/1639/imagens/Capture_3.jpg"
         }
     ]
 }
